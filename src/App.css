@@ -1,0 +1,204 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+
+}
+
+.appInsider {
+  display: flex;
+  background-image: url('./assets/background_img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+
+}
+
+.leftSide {
+  flex: 0 0 50%;
+
+}
+
+.heading {
+  padding-left: 54px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #007bff;
+}
+
+.checkBtn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  margin-top: 20px;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.mainEntryBox {
+  background-color: white;
+
+}
+
+.dataEntryBox {
+  margin: 60px;
+  height: 250px;
+  width: 400px;
+  background-color: #e6f7ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.dataEntryheading {
+  color: #007bff;
+}
+
+.inputValueBox1 {
+  margin-left: 40px;
+  width: 70px;
+}
+
+.inputValueBox2 {
+  margin-left: 25px;
+  width: 70px;
+}
+
+.wrongbtn {
+  background-color: red;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.recordDataBox {
+  max-height: 250px;
+  overflow-y: auto;
+  padding-left: 54px;
+  padding-right: 54px;
+
+}
+
+.recordData {
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #e6f7ff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  transition: background-color 0.3s ease;
+
+
+  &:hover {
+    background-color: #cce5ff;
+  }
+}
+
+.recordPara {
+  font-weight: bold;
+  color: #007bff;
+
+}
+
+.openButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.EmptyBox {
+  background-color: white;
+  height: 200px;
+  margin-left: 54px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+
+
+.rightSide {
+  flex: 0 0 50%;
+}
+
+.tableDesign {
+  height: 275px;
+  background-color: white;
+  margin-right: 54px;
+  margin-top: 100px;
+  margin-left: 54px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.EmptyBox2 {
+  background-color: white;
+  width: 100%;
+  margin: 100px;
+  border-radius: 10px;
+}
+
+.displayDataHeading {
+  color: #007bff;
+  background-color: white;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-left: 254px;
+  width: 250px;
+  margin-top: 54px;
+
+}
+
