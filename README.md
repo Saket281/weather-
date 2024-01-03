@@ -1,29 +1,30 @@
 # Movie App Website
-Developed an innovative Movie Discovery Web App designed for users seeking a personalized and efficient way to explore and watch movies and web series. The app places a special emphasis on empowering users to discover content based on ratings, ensuring a curated and enjoyable viewing experience.
+Developed a responsive and feature-packed Weather App using React, incorporating advanced functionalities to deliver real-time weather information.
 
 
-![App Screenshot](https://github.com/Saket281/movix/assets/131553738/c9ad2c14-92c0-4643-8cae-3310ce87fbd1)
+![App Screenshot]()![Screenshot 2023-12-31 221947](https://github.com/Saket281/weather-/assets/131553738/f379d71b-27c5-4de1-832f-ab467eed572f)
+![Screenshot 2023-12-31 222118](https://github.com/Saket281/weather-/assets/131553738/1cbcd159-c198-4669-bd81-9dc7baeca4b6)
+
 
 ## Features
-
-It shows what is trending in the recent (you can also filter by days and week ) as well as it also shows what's popular in the recent time (you can filter on the basis of movies and tv shows).
-It also shows top rated and also helps with filteration of movies and tv shows
+### Location-Based Weather
+Accepts latitude and longitude parameters to provide precise weather details.
 
 ![Screenshot 2023-12-30 231249](https://github.com/Saket281/movix/assets/131553738/24fa28f7-0618-42f8-b419-ddb2e123d1b2)
+Utilizes Mapbox GL for interactive location-based weather exploration.
 ![Screenshot 2023-12-30 231306](https://github.com/Saket281/movix/assets/131553738/8b3abbb5-6a2f-4315-8dd4-4d49fa88f6dd)
 
-## Movies and TV shows
-
-On the top you can see the movies section where you can navigate all the movies and their ratings as well as you can search movies on the basis of genres and also have a sortBy for the movies it happens same for the TV shows also 
+### Weather Details
+Displays essential weather information such as temperature, pressure, humidity, wind speed, and weather conditions.
 ![Screenshot 2023-12-30 231414](https://github.com/Saket281/movix/assets/131553738/106f2ae6-06c9-4a44-ac5a-78dec678ec85)
-![Screenshot 2023-12-30 231429](https://github.com/Saket281/movix/assets/131553738/d68b1c90-51d1-4250-bab1-e057961b1b56)
-![Screenshot 2023-12-30 231456](https://github.com/Saket281/movix/assets/131553738/4e4aa293-0fd0-4579-8439-7d27fcd03639)
-![Screenshot 2023-12-30 231548](https://github.com/Saket281/movix/assets/131553738/b296d5cd-a7dc-46f1-91f8-83a2a926bc53)
 
-## Search functionality 
-It has a search functionality where you can search any movie which is released till date and see the rating , the year of release![Screenshot 2023-12-30 231604](https://github.com/Saket281/movix/assets/131553738/a404d4b8-4c6f-413f-ac1c-d26ea122afcc)
 
-when you click on any card present you go the deatils of the specific section like the details of the show , the cast ,you can also play the trailer as well as video related to the show or movie . It also show related movies or show  to the movie which is opened.
+### Map Integration
+Integrates Mapbox GL for an interactive and visually appealing map interface.
+Users can click on locations to retrieve detailed weather information.
+![Screenshot 2023-12-30 231604](https://github.com/Saket281/movix/assets/131553738/a404d4b8-4c6f-413f-ac1c-d26ea122afcc)
+
+Implements modern technologies, ensuring efficient data flow and seamless user experience.
 
 ![Screenshot 2023-12-30 231625](https://github.com/Saket281/movix/assets/131553738/95420d96-f7fe-48b3-9936-7d875dd84fb6)
 ![Screenshot 2023-12-30 231644](https://github.com/Saket281/movix/assets/131553738/5306a65f-1e4c-4dd6-a942-c8129c801372)
