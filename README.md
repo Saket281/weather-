@@ -10,7 +10,7 @@ Developed a responsive and feature-packed Weather App using React, incorporating
 ### Location-Based Weather
 Accepts latitude and longitude parameters to provide precise weather details.
 
-![Screenshot 2023-12-30 231249]()![Screenshot 2023-12-31 222151](https://github.com/Saket281/weather-/assets/131553738/f19017f6-f7a2-487e-9ea6-9b4db90ad092)
+![Screenshot 2023-12-31 222151](https://github.com/Saket281/weather-/assets/131553738/f19017f6-f7a2-487e-9ea6-9b4db90ad092)
 
 Utilizes Mapbox GL for interactive location-based weather exploration.
 
